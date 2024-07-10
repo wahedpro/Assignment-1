@@ -210,4 +210,98 @@ body{
 .current-target-content img{
     width: 60px;
 }
-/*  */
+/* This is next target section style */
+.next-target{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.next-target-card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px 0px;
+}
+.next-target-content{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+}
+.next-target-content-text h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.next-target-content-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.next-target-content-text a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+/* This is I need Support section style */
+.support{
+    width: 1200px;
+    margin: 0 auto;
+    height: 315px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    background-image: url(assets/handshake.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.support-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.support-content p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.support-from input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.support-from button{
+    width: 120px;
+    height: 57px;
+    border: none;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
