@@ -98,7 +98,7 @@ body{
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     align-items: center;
     padding: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card-content h3{
     color: rgba(13, 19, 33, 0.7);
@@ -134,7 +134,7 @@ body{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     align-items: center;
     padding: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /* This is inspiration section style */
@@ -155,10 +155,59 @@ body{
     padding: 32px;
     width: 1100px;
     height: 615px;
+    margin-bottom: 50px;
 }
 .video-card iframe{
     border-radius: 16px;
     width: 1030px;
     height: 550px;
 }
-
+/* This is My Current Target section style */
+.current-target{
+    width: 1200px;
+    margin: 0 auto;
+}
+.current-target-card{
+    display: flex;
+    gap: 24px;
+}
+/* this is all card background color */
+.current-target-content1-color{
+    background: rgba(255, 76, 30, 0.05);
+}.current-target-content2-color{
+    background: rgba(0, 76, 232, 0.05)
+}.current-target-content3-color{
+    background: rgba(255, 223, 0, 0.05);
+}
+.current-target-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 365px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.current-target-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.current-target-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.current-target-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+.current-target-content img{
+    width: 60px;
+}
+/*  */
